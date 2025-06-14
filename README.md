@@ -5,7 +5,7 @@
 </p>
 
 
-<h1 align="center">👋 Hi there! I'm Nirajan</h1>
+<h1 align="center">👋 Hi there! I'm Nirajan Tiwari</h1>
 <h3 align="center">Full Stack Developer</h3>
 A passionate and curious learner with a growing interest in full-stack web development.
 
