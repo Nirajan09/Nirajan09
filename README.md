@@ -40,7 +40,7 @@ A passionate and curious learner with a growing interest in full-stack web devel
 
 ## 🛠️ Tech Stack & Tools
 
-<p style="display:flex; gap:1rem; align-items:center; justify-content:center;">
+<p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="30" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="30" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="40"/> 
@@ -52,6 +52,7 @@ A passionate and curious learner with a growing interest in full-stack web devel
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="30" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="30" height="40"/> 
 </p>
+
 ---
 
 ## 📈 GitHub Stats
