@@ -6,60 +6,63 @@
 
 <h1 align="center">👋 Hi, I'm Nirajan Tiwari</h1>
 <h3 align="center">
-Full-Stack Developer | Django & Node.js | React & Next.js | Linux & Docker
+Full-Stack Web Developer • Django & DRF • React & Next.js • Docker & Linux
 </h3>
 
 <p align="center">
-Building scalable, maintainable web applications with modern backend and frontend technologies.
+I build scalable, secure, and high-performance web applications with a strong focus on clean architecture,
+backend reliability, and frontend performance.
 </p>
 
 ---
 
 ## 🧑‍💻 About Me
 
-I'm a **Full-Stack Developer** specializing in **Django** for backend development and **React / Next.js** for modern, high-performance frontends.
+I'm a **Full-Stack Web Developer** with professional experience building and maintaining **production-ready web applications**.
 
-I work professionally with **Django & PostgreSQL**, and I also have hands-on experience with **Node.js, Express.js & MongoDB**, giving me flexibility across backend ecosystems.
+I specialize in **Django & Django REST Framework** for backend development and **React / Next.js** for modern, performant frontends. I have also worked with **Node.js and Express**, which allows me to adapt easily across different backend ecosystems.
 
-I actively use **Linux, Docker, Git, and CI/CD pipelines** to streamline development and deployment workflows. I enjoy building clean architectures, scalable APIs, and production-ready systems.
+On the backend, I focus on **RESTful API design, authentication, role-based access control, caching, and background task processing**. On the frontend, I prioritize **clean component architecture, accessibility, responsiveness, and performance optimization**.
+
+I actively use **Linux, Docker, Docker Compose, Git, and CI/CD pipelines** to streamline development workflows and ensure consistent deployments.
 
 🎯 **Career Goal:**  
-Grow into a technical leadership role and eventually build a tech product that solves real-world problems.
+Grow into a strong backend-leaning full-stack engineer, contribute to complex systems, and eventually build products that solve real-world problems at scale.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
-### Frontend
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="35"/>
-</p>
+### Frontend 
+<p> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="35"/> 
+</p> 
 
-### Backend
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="35"/>
-</p>
+### Backend 
+<p> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="35"/> 
+</p> 
 
-### Databases
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="35"/>
-</p>
+### Databases 
+<p> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="35"/> 
+</p> 
 
-### DevOps & Tools
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="35"/>
-</p>
+### DevOps & Tools 
+<p> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="35"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="35"/> 
+</p> 
 
 ---
 
@@ -83,7 +86,6 @@ Grow into a technical leadership role and eventually build a tech product that s
   </a>
 </p>
 
-
 ---
 
 ## 📈 GitHub Stats
@@ -91,15 +93,11 @@ Grow into a technical leadership role and eventually build a tech product that s
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nirajan09&layout=compact&theme=react" />
 </p>
-<!-- <p align="center">
-  <img src="https://github-readme-stats-psi-five.vercel.app/api?username=nirajan09&show_icons=true&theme=react" />
-</p> -->
+
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=nirajan09&theme=react" />
 </p>
 
 ---
-
-<br />
 
 ### 🚀 Open to collaboration, learning, and building impactful products
