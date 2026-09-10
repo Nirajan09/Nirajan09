@@ -4,100 +4,137 @@
   </a>
 </p>
 
-<h1 align="center">👋 Hi, I'm Nirajan Tiwari</h1>
-<h3 align="center">
-Full-Stack Web Developer • Django & DRF • React & Next.js • Docker & Linux
-</h3>
+<div align="center">
 
-<p align="center">
-I build scalable, secure, and high-performance web applications with a strong focus on clean architecture,
-backend reliability, and frontend performance.
-</p>
+# Hi, I'm Nirajan Tiwari 👋
 
----
+### 🚀 Full Stack Developer
 
-## 🧑‍💻 About Me
+**Building scalable web applications, REST APIs & modern digital experiences.**
 
-I'm a **Full-Stack Web Developer** with professional experience building and maintaining **production-ready web applications**.
+<br>
 
-I specialize in **Django & Django REST Framework** for backend development and **React / Next.js** for modern, performant frontends. I have also worked with **Node.js and Express**, which allows me to adapt easily across different backend ecosystems.
-
-On the backend, I focus on **RESTful API design, authentication, role-based access control, caching, and background task processing**. On the frontend, I prioritize **clean component architecture, accessibility, responsiveness, and performance optimization**.
-
-I actively use **Linux, Docker, Docker Compose, Git, and CI/CD pipelines** to streamline development workflows and ensure consistent deployments.
-
-🎯 **Career Goal:**  
-Grow into a strong backend-leaning full-stack engineer, contribute to complex systems, and eventually build products that solve real-world problems at scale.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-### Frontend 
-<p> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="35"/> 
-</p> 
-
-### Backend 
-<p> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="35"/> 
-</p> 
-
-### Databases 
-<p> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="35"/> 
-</p> 
-
-### DevOps & Tools 
-<p> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="35"/> 
-</p> 
-
----
-
-## 🌐 Connect With Me
-
-<p align="left">
-  <a href="https://linkedin.com/in/nirajan-tiwari" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40"/>
+<div align="center">
+  <a href="https://github.com/Nirajan09">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://fb.com/nirajan.tiwari.371646" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" width="40"/>
+  <a href="https://linkedin.com/in/nirajan-tiwari">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://instagram.com/nirajan_tiwari" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"/>
+  <a href="https://nirajantiwari.com.np">
+    <img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.leetcode.com/nirajan_tiwari" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="40"/>
+  <a href="mailto:nirajantiwari09@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
   </a>
+</div>
+
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+I'm a **Full Stack Developer** focused on building reliable backends, clean APIs, and modern web applications.
+
+I work across the stack with **Python, Django, React, Next.js, TypeScript, and Node.js**, with a strong interest in backend architecture, databases, authentication, and performance.
+
+Currently exploring **scalable system design and better backend architecture**.
+
+---
+
+## ⚡ Tech Stack
+
+### 💻 Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,typescript,javascript" />
+</p>
+
+### 🎨 Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux" />
+</p>
+
+### ⚙️ Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=django,nodejs,express" />
+</p>
+
+### 🗄️ Database & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker" />
+</p>
+
+### 🛠️ Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,postman,vercel" />
 </p>
 
 ---
 
-## 📈 GitHub Stats
+## 🚀 What I Build
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nirajan09&layout=compact&theme=react" />
-</p>
+> ### ⚙️ Backend Architecture
+> REST APIs · RBAC · Database Design & Optimization
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nirajan09&theme=react" />
-</p>
+> ### 🎨 Modern Full Stack
+> React · Next.js · TypeScript · Responsive Apps
+
+> ### 🔐 Security Implementation
+> JWT · Protected Routes · Secure API Integration
+
+> ### ⚡ Performance Tuning
+> Redis · Query Optimization · Caching · Indexing
+
+<br>
+
+## 🌱 Currently Focusing On
+
+<div align="center">
+
+**` 🏗️ System Design `** &nbsp;&nbsp;✦&nbsp;&nbsp; **` ⚙️ Backend Architecture `** &nbsp;&nbsp;✦&nbsp;&nbsp; **` 🚀 Scalable APIs `** &nbsp;&nbsp;✦&nbsp;&nbsp; **` ⚡ Performance `**
+
+</div>
+<br>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Nirajan09&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" height="170" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nirajan09&layout=compact&hide_border=true" height="170" />
+
+</div>
 
 ---
+<br>
 
-### 🚀 Open to collaboration, learning, and building impactful products
+## 🤝 Let's Connect
+
+<div align="center">
+
+### Open to building something meaningful. 🚀
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/Nirajan09"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/nirajan-tiwari"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+  <a href="mailto:nirajantiwari09@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" /></a>
+</div>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Nirajan09&style=flat-square&label=Profile+Views" />
+
+</div>
