@@ -32,7 +32,6 @@
   </a>
 </div>
 
-
 </div>
 
 ---
@@ -52,31 +51,31 @@ Currently exploring **scalable system design and better backend architecture**.
 ### 💻 Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript" alt="Languages" />
 </p>
 
 ### 🎨 Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux" alt="Frontend" />
 </p>
 
 ### ⚙️ Backend
 
 <p>
-<img src="https://skillicons.dev/icons?i=django,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=django,nodejs,express" alt="Backend" />
 </p>
 
 ### 🗄️ Database & Infrastructure
 
 <p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker" alt="Database and Infrastructure" />
 </p>
 
 ### 🛠️ Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,postman,vercel" />
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vercel" alt="Tools" />
 </p>
 
 ---
@@ -109,11 +108,8 @@ Currently exploring **scalable system design and better backend architecture**.
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Nirajan09&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" height="170" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nirajan09&layout=compact&hide_border=true" height="170" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Nirajan09&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=transparent&cache_seconds=86400" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Nirajan09&layout=compact&hide_border=true&theme=transparent&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 ---
@@ -129,12 +125,14 @@ Currently exploring **scalable system design and better backend architecture**.
 
 <div align="center">
   <a href="https://github.com/Nirajan09"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/nirajan-tiwari"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;&nbsp;
   <a href="mailto:nirajantiwari09@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" /></a>
 </div>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Nirajan09&style=flat-square&label=Profile+Views" />
+<img src="https://komarev.com/ghpvc/?username=Nirajan09&style=flat-square&label=Profile+Views&color=blue" alt="Profile Views" />
 
 </div>
