@@ -14,6 +14,7 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    if: "${{ secrets.METRICS_TOKEN != '' }}"
     timeout-minutes: 10
     steps:
       - name: Generate metrics SVG

@@ -135,11 +135,11 @@ flowchart LR
 </div>
 
 <p align="center">
+  <a href="https://book-recommendation-system-umber.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Vercel-black?style=flat-square&logo=vercel" alt="Live Demo"></a>
   <a href="https://github.com/Nirajan09/BookRecommendationSystem"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github" alt="Source Code"></a>
   <img src="https://img.shields.io/github/last-commit/Nirajan09/BookRecommendationSystem?style=flat-square&color=00F2FE" alt="Last Commit">
   <img src="https://img.shields.io/github/languages/top/Nirajan09/BookRecommendationSystem?style=flat-square&color=8B5CF6" alt="Top Language">
   <img src="https://img.shields.io/github/stars/Nirajan09/BookRecommendationSystem?style=flat-square&color=F59E0B" alt="Stars">
-  <!-- TODO: Add live demo URL when available -->
 </p>
 
 <!-- TODO: Add demo preview GIF at assets/screens/book-recommendation-system.gif -->
@@ -244,11 +244,11 @@ flowchart TD
 </div>
 
 <p align="center">
+  <a href="https://image-sharing-platform-two.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Vercel-black?style=flat-square&logo=vercel" alt="Live Demo"></a>
   <a href="https://github.com/Nirajan09/image-sharing-platform"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github" alt="Source Code"></a>
   <img src="https://img.shields.io/github/last-commit/Nirajan09/image-sharing-platform?style=flat-square&color=00F2FE" alt="Last Commit">
   <img src="https://img.shields.io/github/languages/top/Nirajan09/image-sharing-platform?style=flat-square&color=8B5CF6" alt="Top Language">
   <img src="https://img.shields.io/github/stars/Nirajan09/image-sharing-platform?style=flat-square&color=F59E0B" alt="Stars">
-  <!-- TODO: Add live demo URL when available -->
 </p>
 
 <!-- TODO: Add demo preview GIF at assets/screens/pixify.gif -->

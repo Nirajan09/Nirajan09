@@ -48,11 +48,11 @@
 
   <!-- Header: Status & Index -->
   <g class="mono" font-size="11">
-    <rect x="24" y="22" width="220" height="24" rx="12" fill="#0D1525" stroke="#00F2FE" stroke-opacity="0.5"/>
-    <circle cx="36" cy="34" r="4" fill="#00F2FE"/>
-    <text x="48" y="38" fill="#00F2FE" font-weight="700" letter-spacing="0.5">PROJECT_01 // STATUS: SOURCE</text>
+    <rect x="24" y="22" width="185" height="24" rx="12" fill="#0D1525" stroke="#10B981" stroke-opacity="0.8"/>
+    <circle cx="36" cy="34" r="4" fill="#10B981"/>
+    <text x="48" y="38" fill="#10B981" font-weight="700" letter-spacing="0.5">PROJECT_01 // STATUS: LIVE</text>
 
-    <text x="806" y="38" fill="#64748B" text-anchor="end" font-weight="600">v1.2.0 · SHA: a8f9c2</text>
+    <text x="806" y="38" fill="#64748B" text-anchor="end" font-weight="600">VERCEL DEPLOYED</text>
   </g>
 
   <!-- Title & Cursor -->
