@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 360" width="100%" height="360" fill="none">
+  <defs>
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .scan-line {
+      animation: scan 7s linear infinite;
+    }
+    @keyframes scan {
+      0% { transform: translateY(0); opacity: 0; }
+      50% { opacity: 0.12; }
+      100% { transform: translateY(360px); opacity: 0; }
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="828" height="358" rx="12" fill="#080C14" stroke="url(#termBorder)" stroke-width="1.5"/>
+
+  <!-- Window Header -->
+  <path d="M1 13C1 6.37258 6.37258 1 13 1H817C823.627 1 829 6.37258 829 13V38H1V13Z" fill="url(#headerGrad)"/>
+  <line x1="1" y1="38" x2="829" y2="38" stroke="#334155" stroke-width="1"/>
+
+  <!-- Window Buttons -->
+  <circle cx="22" cy="19" r="6" fill="#EF4444"/>
+  <circle cx="42" cy="19" r="6" fill="#F59E0B"/>
+  <circle cx="62" cy="19" r="6" fill="#10B981"/>
+
+  <!-- Title -->
+  <text x="415" y="24" fill="#94A3B8" font-size="12" font-weight="600" text-anchor="middle" class="mono">nirajan@kathmandu: ~/profile (zsh)</text>
+
+  <!-- Scanline -->
+  <rect x="2" y="39" width="826" height="2" fill="#00F2FE" class="scan-line" opacity="0.1"/>
+
+  <!-- Terminal Content -->
+  <g class="mono" font-size="12.5">
+    <!-- Prompt Line -->
+    <text x="24" y="66">
+      <tspan fill="#00F2FE" font-weight="700">nirajan@kathmandu</tspan>
+      <tspan fill="#64748B">:</tspan>
+      <tspan fill="#F59E0B">~</tspan>
+      <tspan fill="#64748B">$ </tspan>
+      <tspan fill="#F8FAFC" font-weight="600">whoami --verbose</tspan>
+    </text>
+
+    <!-- Output Lines -->
+    <text x="24" y="93">
+      <tspan fill="#8B5CF6">name</tspan><tspan fill="#64748B"> ....... </tspan>
+      <tspan fill="#F8FAFC" font-weight="600">Nirajan Tiwari</tspan>
+      <tspan fill="#64748B"> [Full Stack Developer · Kathmandu, Nepal]</tspan>
+    </text>
+
+    <text x="24" y="118">
+      <tspan fill="#8B5CF6">current</tspan><tspan fill="#64748B"> .... </tspan>
+      <tspan fill="#00F2FE">Full Stack Developer @ Cherdung Info Tech</tspan>
+      <tspan fill="#64748B"> (since Apr 2026)</tspan>
+    </text>
+
+    <text x="24" y="143">
+      <tspan fill="#8B5CF6">career</tspan><tspan fill="#64748B"> ..... </tspan>
+      <tspan fill="#CBD5E1">Assoc. Full Stack (Oct 25-Mar 26) &amp; Frontend Intern (Jul-Sep 25) @ Vyomite</tspan>
+    </text>
+
+    <text x="24" y="168">
+      <tspan fill="#8B5CF6">education</tspan><tspan fill="#64748B"> .. </tspan>
+      <tspan fill="#CBD5E1">BSc CSIT, Orchid International College (2022 - 2026)</tspan>
+    </text>
+
+    <text x="24" y="193">
+      <tspan fill="#8B5CF6">frontend</tspan><tspan fill="#64748B"> ... </tspan>
+      <tspan fill="#00F2FE">React 19 · Next.js 16 · TypeScript · Tailwind CSS · Radix UI</tspan>
+    </text>
+
+    <text x="24" y="218">
+      <tspan fill="#8B5CF6">backend</tspan><tspan fill="#64748B"> .... </tspan>
+      <tspan fill="#10B981">Django 5.2 / DRF · Node.js · Express 5 · Celery · Redis</tspan>
+    </text>
+
+    <text x="24" y="243">
+      <tspan fill="#8B5CF6">data/ops</tspan><tspan fill="#64748B"> .. </tspan>
+      <tspan fill="#CBD5E1">PostgreSQL · MongoDB · Prisma · Supabase · Docker · Nginx · GitHub Actions</tspan>
+    </text>
+
+    <text x="24" y="268">
+      <tspan fill="#8B5CF6">payments</tspan><tspan fill="#64748B"> .. </tspan>
+      <tspan fill="#F59E0B">Stripe · eSewa · Khalti</tspan>
+      <tspan fill="#64748B"> + </tspan>
+      <tspan fill="#38BDF8">Clerk · Cloudinary</tspan>
+    </text>
+
+    <text x="24" y="293">
+      <tspan fill="#8B5CF6">status</tspan><tspan fill="#64748B"> .... </tspan>
+      <tspan fill="#F43F5E">setTimeout(disappointment, Infinity);</tspan>
+    </text>
+
+    <text x="24" y="318">
+      <tspan fill="#8B5CF6">coffee</tspan><tspan fill="#64748B"> .... </tspan>
+      <tspan fill="#F59E0B">[████████████████░░░░]</tspan>
+      <tspan fill="#E2E8F0"> 82% </tspan>
+      <tspan fill="#64748B">// try { ship() } catch { blame(cache) }</tspan>
+    </text>
+
+    <!-- Prompt 2 -->
+    <text x="24" y="344">
+      <tspan fill="#00F2FE" font-weight="700">nirajan@kathmandu</tspan>
+      <tspan fill="#64748B">:</tspan>
+      <tspan fill="#F59E0B">~</tspan>
+      <tspan fill="#64748B">$ </tspan>
+      <tspan fill="#F8FAFC">git log --oneline -1</tspan>
+      <tspan fill="#00F2FE" class="cursor" font-weight="700"> █</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+name: GitHub Profile 3D Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # Daily at 18:00 UTC (23:45 NPT)
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contribution Skyline
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Profile Contrib
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_3D_PAT || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and push to profile-3d-contrib branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B profile-3d-contrib
+          cp -r profile-3d-contrib/* .
+          rm -rf profile-3d-contrib
+          git add profile-*.svg
+          git commit -m "chore(skyline): regenerate 3d contribution calendar [skip ci]" || exit 0
+          git push -f origin profile-3d-contrib

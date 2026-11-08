@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 260" width="100%" height="260" fill="none">
+  <defs>
+    <linearGradient id="orbitBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .orbit-ring {
+      stroke: #1E293B;
+      stroke-dasharray: 4 6;
+      animation: spinRing 40s linear infinite;
+      transform-origin: 415px 130px;
+    }
+    .orbit-ring-rev {
+      stroke: #334155;
+      stroke-dasharray: 6 8;
+      animation: spinRingRev 50s linear infinite;
+      transform-origin: 415px 130px;
+    }
+    @keyframes spinRing {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spinRingRev {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    .float-slow {
+      animation: floatA 6s ease-in-out infinite alternate;
+    }
+    .float-fast {
+      animation: floatB 5s ease-in-out infinite alternate;
+    }
+    .float-alt {
+      animation: floatC 7s ease-in-out infinite alternate;
+    }
+    @keyframes floatA {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-5px); }
+    }
+    @keyframes floatB {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(5px); }
+    }
+    @keyframes floatC {
+      0% { transform: translateX(0px) translateY(0px); }
+      100% { transform: translateX(3px) translateY(-4px); }
+    }
+    .core-pulse {
+      animation: pulse 3s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.98); opacity: 0.85; }
+      100% { transform: scale(1.02); opacity: 1; }
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="828" height="258" rx="12" fill="#080C14" stroke="url(#orbitBorder)" stroke-width="1.5"/>
+
+  <!-- Orbital Track Lines (Concentric around center) -->
+  <ellipse cx="415" cy="130" rx="340" ry="95" class="orbit-ring" fill="none" stroke-width="1"/>
+  <ellipse cx="415" cy="130" rx="230" ry="70" class="orbit-ring-rev" fill="none" stroke-width="1"/>
+  <ellipse cx="415" cy="130" rx="120" ry="45" stroke="#1E293B" stroke-dasharray="3 4" fill="none" stroke-width="1"/>
+
+  <!-- Center Core -->
+  <g class="core-pulse" transform-origin="415 130">
+    <rect x="350" y="110" width="130" height="40" rx="20" fill="#0F172A" stroke="url(#coreGrad)" stroke-width="2"/>
+    <circle cx="365" cy="130" r="4" fill="#00F2FE"/>
+    <text x="375" y="134" fill="#F8FAFC" font-size="11" font-weight="700" class="mono">CORE STACK</text>
+  </g>
+
+  <!-- Orbiting Nodes: FRONTEND (Top-Left & Mid-Left) -->
+  <g class="float-slow">
+    <!-- React -->
+    <g transform="translate(40, 45)">
+      <rect x="0" y="0" width="105" height="32" rx="16" fill="#0D1525" stroke="#00F2FE" stroke-width="1.2"/>
+      <ellipse cx="20" cy="16" rx="9" ry="4" stroke="#00F2FE" stroke-width="1.2" fill="none"/>
+      <ellipse cx="20" cy="16" rx="4" ry="9" stroke="#00F2FE" stroke-width="1.2" fill="none"/>
+      <circle cx="20" cy="16" r="2" fill="#00F2FE"/>
+      <text x="36" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">React 19</text>
+    </g>
+
+    <!-- Next.js -->
+    <g transform="translate(160, 25)">
+      <rect x="0" y="0" width="100" height="32" rx="16" fill="#0D1525" stroke="#F8FAFC" stroke-opacity="0.8" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="7" fill="#F8FAFC"/>
+      <path d="M15 21L21 11" stroke="#080C14" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="32" y="20" fill="#F8FAFC" font-size="11" font-weight="600" class="mono">Next.js 16</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(275, 45)">
+      <rect x="0" y="0" width="115" height="32" rx="16" fill="#0D1525" stroke="#3B82F6" stroke-width="1.2"/>
+      <rect x="11" y="9" width="14" height="14" rx="2" fill="#3B82F6"/>
+      <text x="13" y="20" fill="#FFFFFF" font-size="8" font-weight="700" class="mono">TS</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">TypeScript</text>
+    </g>
+
+    <!-- Tailwind -->
+    <g transform="translate(70, 95)">
+      <rect x="0" y="0" width="115" height="32" rx="16" fill="#0D1525" stroke="#06B6D4" stroke-width="1.2"/>
+      <path d="M14 16C15 13 17 12 19 13C21 14 22 17 24 16" stroke="#06B6D4" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Tailwind CSS</text>
+    </g>
+  </g>
+
+  <!-- Orbiting Nodes: BACKEND (Top-Right & Mid-Right) -->
+  <g class="float-fast">
+    <!-- Django / DRF -->
+    <g transform="translate(440, 35)">
+      <rect x="0" y="0" width="125" height="32" rx="16" fill="#0D1525" stroke="#10B981" stroke-width="1.2"/>
+      <rect x="11" y="9" width="14" height="14" rx="2" fill="#092E20" stroke="#10B981" stroke-width="1"/>
+      <text x="13" y="19" fill="#10B981" font-size="7" font-weight="800" class="mono">dj</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Django / DRF</text>
+    </g>
+
+    <!-- Node.js -->
+    <g transform="translate(580, 25)">
+      <rect x="0" y="0" width="100" height="32" rx="16" fill="#0D1525" stroke="#22C55E" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="6" fill="#22C55E"/>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Node.js</text>
+    </g>
+
+    <!-- Express -->
+    <g transform="translate(695, 45)">
+      <rect x="0" y="0" width="95" height="32" rx="16" fill="#0D1525" stroke="#94A3B8" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#94A3B8"/>
+      <text x="30" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Express 5</text>
+    </g>
+
+    <!-- Celery & Redis -->
+    <g transform="translate(645, 95)">
+      <rect x="0" y="0" width="145" height="32" rx="16" fill="#0D1525" stroke="#84CC16" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#84CC16"/>
+      <text x="30" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Celery + Redis</text>
+    </g>
+  </g>
+
+  <!-- Orbiting Nodes: DATA & OPS (Bottom Half) -->
+  <g class="float-alt">
+    <!-- PostgreSQL -->
+    <g transform="translate(45, 160)">
+      <rect x="0" y="0" width="125" height="32" rx="16" fill="#0D1525" stroke="#38BDF8" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="6" fill="#38BDF8"/>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">PostgreSQL</text>
+    </g>
+
+    <!-- MongoDB -->
+    <g transform="translate(185, 175)">
+      <rect x="0" y="0" width="105" height="32" rx="16" fill="#0D1525" stroke="#10B981" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#10B981"/>
+      <text x="30" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">MongoDB</text>
+    </g>
+
+    <!-- Prisma & Supabase -->
+    <g transform="translate(305, 185)">
+      <rect x="0" y="0" width="145" height="32" rx="16" fill="#0D1525" stroke="#6366F1" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#6366F1"/>
+      <text x="30" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Prisma · Supabase</text>
+    </g>
+
+    <!-- Docker & Actions -->
+    <g transform="translate(465, 185)">
+      <rect x="0" y="0" width="155" height="32" rx="16" fill="#0D1525" stroke="#0284C7" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#0284C7"/>
+      <text x="30" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Docker · CI Actions</text>
+    </g>
+
+    <!-- Payments: Stripe · eSewa · Khalti -->
+    <g transform="translate(635, 160)">
+      <rect x="0" y="0" width="155" height="32" rx="16" fill="#0D1525" stroke="#F59E0B" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#F59E0B"/>
+      <text x="30" y="20" fill="#E2E8F0" font-size="11" font-weight="600" class="mono">Stripe · eSewa · Khalti</text>
+    </g>
+  </g>
+
+  <!-- Legend / Terminal Prompt Footer -->
+  <text x="415" y="240" fill="#64748B" font-size="10.5" font-weight="500" text-anchor="middle" class="mono">
+    <tspan fill="#00F2FE">●</tspan> Web Architecture · <tspan fill="#10B981">●</tspan> Distributed Services · <tspan fill="#8B5CF6">●</tspan> Relational &amp; Document Data · <tspan fill="#F59E0B">●</tspan> FinTech Integrations
+  </text>
+</svg>

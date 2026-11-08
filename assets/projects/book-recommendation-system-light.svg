@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 260" width="100%" height="260" fill="none">
+  <defs>
+    <linearGradient id="p1BorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#7C3AED;#D97706;#0284C7" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#D97706;#0284C7;#7C3AED" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#D97706">
+        <animate attributeName="stop-color" values="#D97706;#0284C7;#7C3AED;#D97706" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="scanGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .scan {
+      animation: sweep 6s linear infinite;
+    }
+    @keyframes sweep {
+      0% { transform: translateY(0); opacity: 0; }
+      20% { opacity: 0.15; }
+      80% { opacity: 0.15; }
+      100% { transform: translateY(260px); opacity: 0; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="828" height="258" rx="14" fill="#F8FAFC" stroke="url(#p1BorderLight)" stroke-width="1.8"/>
+
+  <!-- Scanning line -->
+  <rect x="2" y="0" width="826" height="2" fill="url(#scanGradLight)" class="scan"/>
+
+  <!-- Header: Status & Index -->
+  <g class="mono" font-size="11">
+    <rect x="24" y="22" width="220" height="24" rx="12" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+    <circle cx="36" cy="34" r="4" fill="#0284C7"/>
+    <text x="48" y="38" fill="#0369A1" font-weight="700" letter-spacing="0.5">PROJECT_01 // STATUS: SOURCE</text>
+
+    <text x="806" y="38" fill="#64748B" text-anchor="end" font-weight="600">v1.2.0 · SHA: a8f9c2</text>
+  </g>
+
+  <!-- Title & Cursor -->
+  <g class="mono">
+    <text x="24" y="82" fill="#0F172A" font-size="22" font-weight="700" letter-spacing="-0.5">
+      BookRecommendationSystem<tspan fill="#0284C7" class="cursor">_</tspan>
+    </text>
+    <text x="24" y="108" fill="#475569" font-size="13" font-weight="500">
+      Full-stack bookstore featuring hybrid collaborative filtering ML engine with popular-items fallback.
+    </text>
+  </g>
+
+  <!-- 3 Feature Chips -->
+  <g class="mono" font-size="11">
+    <!-- Chip 1 -->
+    <rect x="24" y="132" width="265" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <circle cx="36" cy="147" r="3" fill="#7C3AED"/>
+    <text x="46" y="151" fill="#1E293B" font-weight="600">User + Item Collaborative Filtering</text>
+
+    <!-- Chip 2 -->
+    <rect x="299" y="132" width="250" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <circle cx="311" cy="147" r="3" fill="#D97706"/>
+    <text x="321" y="151" fill="#1E293B" font-weight="600">Stripe · eSewa · Cash on Delivery</text>
+
+    <!-- Chip 3 -->
+    <rect x="559" y="132" width="247" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <circle cx="571" cy="147" r="3" fill="#0284C7"/>
+    <text x="581" y="151" fill="#1E293B" font-weight="600">Sales Analytics &amp; Low-Stock Alerts</text>
+  </g>
+
+  <!-- Stack Pills Row -->
+  <g class="mono" font-size="10.5">
+    <!-- Django 5.2 -->
+    <rect x="24" y="194" width="82" height="26" rx="13" fill="#D1FAE5" stroke="#059669" stroke-width="0.8"/>
+    <text x="65" y="211" fill="#065F46" text-anchor="middle" font-weight="700">Django 5.2</text>
+
+    <!-- DRF -->
+    <rect x="114" y="194" width="55" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="141" y="211" fill="#334155" text-anchor="middle" font-weight="600">DRF</text>
+
+    <!-- React 19 -->
+    <rect x="177" y="194" width="76" height="26" rx="13" fill="#E0F2FE" stroke="#0284C7" stroke-width="0.8"/>
+    <text x="215" y="211" fill="#0369A1" text-anchor="middle" font-weight="700">React 19</text>
+
+    <!-- Vite -->
+    <rect x="261" y="194" width="55" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="288" y="211" fill="#334155" text-anchor="middle" font-weight="600">Vite</text>
+
+    <!-- Tailwind -->
+    <rect x="324" y="194" width="75" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="361" y="211" fill="#334155" text-anchor="middle" font-weight="600">Tailwind</text>
+
+    <!-- PostgreSQL -->
+    <rect x="407" y="194" width="86" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="450" y="211" fill="#334155" text-anchor="middle" font-weight="600">PostgreSQL</text>
+
+    <!-- scikit-learn -->
+    <rect x="501" y="194" width="94" height="26" rx="13" fill="#FEF3C7" stroke="#D97706" stroke-width="0.8"/>
+    <text x="548" y="211" fill="#92400E" text-anchor="middle" font-weight="700">scikit-learn</text>
+
+    <!-- pandas / numpy -->
+    <rect x="603" y="194" width="105" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="655" y="211" fill="#334155" text-anchor="middle" font-weight="600">pandas · numpy</text>
+
+    <!-- Token Auth -->
+    <rect x="716" y="194" width="90" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="761" y="211" fill="#334155" text-anchor="middle" font-weight="600">Token Auth</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <line x1="24" y1="238" x2="806" y2="238" stroke="#E2E8F0" stroke-width="1"/>
+</svg>

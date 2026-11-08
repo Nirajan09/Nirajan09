@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 260" width="100%" height="260" fill="none">
+  <defs>
+    <linearGradient id="p2BorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#0284C7;#D97706;#7C3AED" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#D97706;#7C3AED;#0284C7" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#D97706">
+        <animate attributeName="stop-color" values="#D97706;#7C3AED;#0284C7;#D97706" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="p2ScanLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .scan {
+      animation: sweep 6s linear infinite;
+    }
+    @keyframes sweep {
+      0% { transform: translateY(0); opacity: 0; }
+      20% { opacity: 0.15; }
+      80% { opacity: 0.15; }
+      100% { transform: translateY(260px); opacity: 0; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="828" height="258" rx="14" fill="#F8FAFC" stroke="url(#p2BorderLight)" stroke-width="1.8"/>
+
+  <!-- Scanning line -->
+  <rect x="2" y="0" width="826" height="2" fill="url(#p2ScanLight)" class="scan"/>
+
+  <!-- Header: Status & Index -->
+  <g class="mono" font-size="11">
+    <rect x="24" y="22" width="185" height="24" rx="12" fill="#D1FAE5" stroke="#059669" stroke-width="1"/>
+    <circle cx="36" cy="34" r="4" fill="#059669"/>
+    <text x="48" y="38" fill="#065F46" font-weight="700" letter-spacing="0.5">PROJECT_02 // STATUS: LIVE</text>
+
+    <text x="806" y="38" fill="#64748B" text-anchor="end" font-weight="600">VERCEL DEPLOYED</text>
+  </g>
+
+  <!-- Title & Cursor -->
+  <g class="mono">
+    <text x="24" y="82" fill="#0F172A" font-size="22" font-weight="700" letter-spacing="-0.5">
+      JobVista<tspan fill="#7C3AED" class="cursor">_</tspan>
+    </text>
+    <text x="24" y="108" fill="#475569" font-size="13" font-weight="500">
+      Role-based job portal with membership limits, filters, applications, and resume review.
+    </text>
+  </g>
+
+  <!-- 3 Feature Chips -->
+  <g class="mono" font-size="11">
+    <rect x="24" y="132" width="255" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <circle cx="36" cy="147" r="3" fill="#0284C7"/>
+    <text x="46" y="151" fill="#1E293B" font-weight="600">Candidate &amp; Recruiter Onboarding</text>
+
+    <rect x="289" y="132" width="250" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <circle cx="301" cy="147" r="3" fill="#7C3AED"/>
+    <text x="311" y="151" fill="#1E293B" font-weight="600">Stripe Membership Post Limits</text>
+
+    <rect x="549" y="132" width="257" height="30" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <circle cx="561" cy="147" r="3" fill="#059669"/>
+    <text x="571" y="151" fill="#1E293B" font-weight="600">Supabase Resumes &amp; Status Tracking</text>
+  </g>
+
+  <!-- Stack Pills Row -->
+  <g class="mono" font-size="10.5">
+    <rect x="24" y="194" width="82" height="26" rx="13" fill="#E2E8F0" stroke="#0F172A" stroke-width="0.8"/>
+    <text x="65" y="211" fill="#0F172A" text-anchor="middle" font-weight="700">Next.js 16</text>
+
+    <rect x="114" y="194" width="76" height="26" rx="13" fill="#E0F2FE" stroke="#0284C7" stroke-width="0.8"/>
+    <text x="152" y="211" fill="#0369A1" text-anchor="middle" font-weight="700">React 19</text>
+
+    <rect x="198" y="194" width="115" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="255" y="211" fill="#334155" text-anchor="middle" font-weight="600">Server Actions</text>
+
+    <rect x="321" y="194" width="76" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="359" y="211" fill="#334155" text-anchor="middle" font-weight="600">Radix UI</text>
+
+    <rect x="405" y="194" width="60" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="435" y="211" fill="#334155" text-anchor="middle" font-weight="600">Clerk</text>
+
+    <rect x="473" y="194" width="105" height="26" rx="13" fill="#D1FAE5" stroke="#059669" stroke-width="0.8"/>
+    <text x="525" y="211" fill="#065F46" text-anchor="middle" font-weight="700">MongoDB Atlas</text>
+
+    <rect x="586" y="194" width="76" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="624" y="211" fill="#334155" text-anchor="middle" font-weight="600">Mongoose</text>
+
+    <rect x="670" y="194" width="60" height="26" rx="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="0.8"/>
+    <text x="700" y="211" fill="#5B21B6" text-anchor="middle" font-weight="700">Stripe</text>
+
+    <rect x="738" y="194" width="68" height="26" rx="13" fill="#E2E8F0"/>
+    <text x="772" y="211" fill="#334155" text-anchor="middle" font-weight="600">Supabase</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <line x1="24" y1="238" x2="806" y2="238" stroke="#E2E8F0" stroke-width="1"/>
+</svg>
