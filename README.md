@@ -305,33 +305,21 @@ flowchart TD
 
 <div align="center">
 
-<table border="0">
-  <tr>
-    <td align="center" width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Nirajan09&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080C14&title_color=00F2FE&icon_color=F59E0B&text_color=94A3B8">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Nirajan09&show_icons=true&theme=default&hide_border=true&bg_color=F8FAFC&title_color=0284C7&icon_color=D97706&text_color=334155">
-        <img src="https://github-readme-stats.vercel.app/api?username=Nirajan09&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080C14&title_color=00F2FE&icon_color=F59E0B&text_color=94A3B8" alt="Nirajan's GitHub Stats">
-      </picture>
-    </td>
-    <td align="center" width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Nirajan09&layout=compact&theme=tokyonight&hide_border=true&bg_color=080C14&title_color=8B5CF6&text_color=94A3B8&exclude_repo=Nirajan09">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Nirajan09&layout=compact&theme=default&hide_border=true&bg_color=F8FAFC&title_color=7C3AED&text_color=334155&exclude_repo=Nirajan09">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nirajan09&layout=compact&theme=tokyonight&hide_border=true&bg_color=080C14&title_color=8B5CF6&text_color=94A3B8&exclude_repo=Nirajan09" alt="Top Languages">
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Nirajan09&theme=tokyonight&hide_border=true&background=080C14&ring=00F2FE&fire=F59E0B&currStreakLabel=00F2FE&currStreakNum=F8FAFC">
-        <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Nirajan09&theme=default&hide_border=true&background=F8FAFC&ring=0284C7&fire=D97706&currStreakLabel=0284C7&currStreakNum=0F172A">
-        <img src="https://streak-stats.demolab.com/?user=Nirajan09&theme=tokyonight&hide_border=true&background=080C14&ring=00F2FE&fire=F59E0B&currStreakLabel=00F2FE&currStreakNum=F8FAFC" alt="GitHub Streak">
-      </picture>
-    </td>
-  </tr>
-</table>
+<!-- Self-Hosted GitHub Metrics (Generated via Actions -> metrics branch) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nirajan09/Nirajan09/metrics/github-metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nirajan09/Nirajan09/metrics/github-metrics-light.svg">
+  <img src="https://raw.githubusercontent.com/Nirajan09/Nirajan09/metrics/github-metrics-dark.svg" alt="Nirajan's GitHub Metrics" width="830">
+</picture>
+
+<br><br>
+
+<!-- GitHub Streak Stats -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Nirajan09&theme=tokyonight&hide_border=true&background=080C14&ring=00F2FE&fire=F59E0B&currStreakLabel=00F2FE&currStreakNum=F8FAFC">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Nirajan09&theme=default&hide_border=true&background=F8FAFC&ring=0284C7&fire=D97706&currStreakLabel=0284C7&currStreakNum=0F172A">
+  <img src="https://streak-stats.demolab.com/?user=Nirajan09&theme=tokyonight&hide_border=true&background=080C14&ring=00F2FE&fire=F59E0B&currStreakLabel=00F2FE&currStreakNum=F8FAFC" alt="GitHub Streak">
+</picture>
 
 </div>
 
