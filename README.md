@@ -5,9 +5,9 @@
 
 <!-- Hero Animated Typing SVG -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+%26+Full+of+Coffee;React+%7C+Next.js+%7C+Django+%7C+TypeScript;Kathmandu%2C+Nepal;I+deploy+on+Fridays.+Try+me.">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+%26+Full+of+Coffee;React+%7C+Next.js+%7C+Django+%7C+TypeScript;Kathmandu%2C+Nepal;I+deploy+on+Fridays.+Try+me.">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+%26+Full+of+Coffee;React+%7C+Next.js+%7C+Django+%7C+TypeScript;Kathmandu%2C+Nepal;I+deploy+on+Fridays.+Try+me." alt="Typing Header">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+%26+Full+of+Coffee;React+%7C+Next.js+%7C+Django+%7C+TypeScript;From+Schema+Design+to+Production;Kathmandu%2C+Nepal">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+%26+Full+of+Coffee;React+%7C+Next.js+%7C+Django+%7C+TypeScript;From+Schema+Design+to+Production;Kathmandu%2C+Nepal">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+%26+Full+of+Coffee;React+%7C+Next.js+%7C+Django+%7C+TypeScript;From+Schema+Design+to+Production;Kathmandu%2C+Nepal" alt="Typing Header">
 </picture>
 
 <!-- Currently Strip -->
@@ -30,7 +30,7 @@ const engineer = {
   name: "Nirajan Tiwari",
   base: "Kathmandu, Nepal",
   currentRole: "Full Stack Developer @ Cherdung Info Tech",
-  status: "git push --force-with-confidence",
+  focus: ["React", "Next.js", "Django", "TypeScript"],
   rule: () => { try { ship(); } catch { blame("cache"); } }
 };
 ```
@@ -344,7 +344,7 @@ flowchart TD
 <div align="center">
 
 <p>
-  <em>Shipping code from Kathmandu—if it breaks in production, check DNS first. Feel free to explore the repos or reach out below.</em>
+  <em>Full-stack engineering from Kathmandu — clean architecture, reliable APIs, and code built to ship. Feel free to explore the repos or connect below.</em>
 </p>
 
 <p align="center">
