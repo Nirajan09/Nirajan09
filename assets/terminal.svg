@@ -108,14 +108,14 @@
 
     <text x="24" y="293">
       <tspan fill="#8B5CF6">status</tspan><tspan fill="#64748B"> .... </tspan>
-      <tspan fill="#F43F5E">setTimeout(disappointment, Infinity);</tspan>
+      <tspan fill="#10B981">Works on my machine (and yours, I use Docker)</tspan>
     </text>
 
     <text x="24" y="318">
       <tspan fill="#8B5CF6">coffee</tspan><tspan fill="#64748B"> .... </tspan>
       <tspan fill="#F59E0B">[████████████████░░░░]</tspan>
       <tspan fill="#E2E8F0"> 82% </tspan>
-      <tspan fill="#64748B">// try { ship() } catch { blame(cache) }</tspan>
+      <tspan fill="#64748B">// turning black coffee into 200 OK</tspan>
     </text>
 
     <!-- Prompt 2 -->
