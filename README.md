@@ -1,16 +1,10 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080C14,50:8B5CF6,100:00F2FE&height=200&section=header&text=Nirajan%20Tiwari&fontSize=48&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn" alt="Nirajan Tiwari Banner" width="830">
+# Nirajan Tiwari
 
-<!-- Typing Subtitle -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+Developer+%40+Cherdung+Info+Tech;React+%7C+Next.js+%7C+Django+%7C+TypeScript;From+Schema+Design+to+Production;Kathmandu%2C+Nepal">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+Developer+%40+Cherdung+Info+Tech;React+%7C+Next.js+%7C+Django+%7C+TypeScript;From+Schema+Design+to+Production;Kathmandu%2C+Nepal">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&height=45&lines=Full-Stack+Developer+%40+Cherdung+Info+Tech;React+%7C+Next.js+%7C+Django+%7C+TypeScript;From+Schema+Design+to+Production;Kathmandu%2C+Nepal" alt="Typing Header">
-</picture>
+**Full-Stack Developer** at Cherdung Info Tech · Kathmandu, Nepal  
+`React · Next.js · TypeScript · Django / DRF`
 
-<!-- Primary Links -->
 <p align="center">
   <a href="https://nirajantiwari.com.np"><img src="https://img.shields.io/badge/Portfolio-nirajantiwari.com.np-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=080C14" alt="Portfolio"></a>
   <a href="https://github.com/Nirajan09"><img src="https://img.shields.io/badge/GitHub-Nirajan09-8B5CF6?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"></a>
@@ -20,19 +14,19 @@
 
 </div>
 
-### 💻 $ whoami
+### About
 
 <div align="center">
-  <img src="assets/terminal.svg" alt="Nirajan Tiwari Terminal Bio" width="830">
+  <img src="assets/terminal.svg" alt="Nirajan Tiwari About Terminal" width="830">
 </div>
 
 <div align="center">
   <img src="assets/divider.svg" alt="Section Divider" width="830">
 </div>
 
-## 🚀 $ ls ~/projects --featured
+## Projects
 
-<!-- PROJECT 01: BookRecommendationSystem -->
+<!-- BookRecommendationSystem -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/book-recommendation-system-dark.svg">
@@ -49,10 +43,8 @@
   <img src="https://img.shields.io/github/stars/Nirajan09/BookRecommendationSystem?style=flat-square&color=F59E0B" alt="Stars">
 </p>
 
-<!-- TODO: Add demo preview GIF at assets/screens/book-recommendation-system.gif -->
-
 <details>
-<summary><b>🔍 Under the hood: Architecture &amp; Specs</b></summary>
+<summary><b>Architecture &amp; Specs</b></summary>
 
 ```mermaid
 flowchart TD
@@ -73,13 +65,11 @@ flowchart TD
 - **Storefront & Checkout**: Token auth, cart, wishlist, reviews, and Stripe / eSewa / cash-on-delivery payments.
 - **Admin Dashboard**: Sales, revenue, best sellers, and low-stock alerts (SQLite in dev, PostgreSQL in prod).
 
-<!-- TODO: Add the hardest technical challenge solved for BookRecommendationSystem -->
-
 </details>
 
 <br>
 
-<!-- PROJECT 02: JobVista -->
+<!-- JobVista -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/job-vista-dark.svg">
@@ -96,10 +86,8 @@ flowchart TD
   <img src="https://img.shields.io/github/stars/Nirajan09/job-portal?style=flat-square&color=F59E0B" alt="Stars">
 </p>
 
-<!-- TODO: Add demo preview GIF at assets/screens/job-vista.gif -->
-
 <details>
-<summary><b>🔍 Under the hood: Architecture &amp; Specs</b></summary>
+<summary><b>Architecture &amp; Specs</b></summary>
 
 ```mermaid
 flowchart TD
@@ -123,13 +111,11 @@ flowchart TD
 - **Monetization & Storage**: Posting limits tied to Stripe membership tiers and Supabase Storage for resumes.
 - **Core Stack**: Next.js 16 / React 19 server actions, Radix UI, Clerk auth, and MongoDB Atlas via Mongoose.
 
-<!-- TODO: Add the hardest technical challenge solved for JobVista -->
-
 </details>
 
 <br>
 
-<!-- PROJECT 03: Pixify -->
+<!-- Pixify -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/pixify-dark.svg">
@@ -146,10 +132,8 @@ flowchart TD
   <img src="https://img.shields.io/github/stars/Nirajan09/image-sharing-platform?style=flat-square&color=F59E0B" alt="Stars">
 </p>
 
-<!-- TODO: Add demo preview GIF at assets/screens/pixify.gif -->
-
 <details>
-<summary><b>🔍 Under the hood: Architecture &amp; Specs</b></summary>
+<summary><b>Architecture &amp; Specs</b></summary>
 
 ```mermaid
 flowchart TD
@@ -172,15 +156,13 @@ flowchart TD
 - **Direct Streaming & Auth**: JWT + bcrypt auth, Multer memory-buffered uploads streamed to Cloudinary, and ownership-checked cascading asset deletion.
 - **Galleries**: Paginated community and per-user galleries with Radix UI dialogs.
 
-<!-- TODO: Add the hardest technical challenge solved for Pixify -->
-
 </details>
 
 <div align="center">
   <img src="assets/divider.svg" alt="Section Divider" width="830">
 </div>
 
-### 🛠️ $ ls ~/stack
+### Stack
 
 <div align="center">
   <img src="assets/tech-orbit.svg" alt="Core Tech Stack" width="830">
@@ -190,11 +172,10 @@ flowchart TD
   <img src="assets/divider.svg" alt="Section Divider" width="830">
 </div>
 
-### 📊 $ curl -s ~/stats
+### Activity
 
 <div align="center">
 
-<!-- Contribution Snake -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nirajan09/Nirajan09/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nirajan09/Nirajan09/output/github-contribution-grid-snake.svg">
@@ -203,7 +184,6 @@ flowchart TD
 
 <br><br>
 
-<!-- Self-Hosted GitHub Metrics -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nirajan09/Nirajan09/metrics/github-metrics-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nirajan09/Nirajan09/metrics/github-metrics-light.svg">
@@ -212,7 +192,6 @@ flowchart TD
 
 <br><br>
 
-<!-- GitHub Streak -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Nirajan09&theme=tokyonight&hide_border=true&background=080C14&ring=00F2FE&fire=F59E0B&currStreakLabel=00F2FE&currStreakNum=F8FAFC">
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Nirajan09&theme=default&hide_border=true&background=F8FAFC&ring=0284C7&fire=D97706&currStreakLabel=0284C7&currStreakNum=0F172A">
@@ -222,7 +201,7 @@ flowchart TD
 </div>
 
 <details>
-<summary><b>🏙️ 3D Contribution Skyline</b></summary>
+<summary><b>3D Contribution Skyline</b></summary>
 
 <div align="center">
   <picture>
@@ -239,5 +218,5 @@ flowchart TD
 </div>
 
 <div align="center">
-  <sub>Full-stack engineering from Kathmandu, Nepal — clean architecture, reliable APIs, and code built to ship.</sub>
+  <sub>Nirajan Tiwari · Kathmandu, Nepal</sub>
 </div>
